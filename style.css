@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ancizar Serif", serif;
+}
+
+body {
+    background-color: #4c80e7;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: block;
+    margin: 20px auto;
+
+}
+
+#real {
+    width: 70px;
+}
+
+main {
+    width: 375px;
+    margin: 0 auto;
+    padding: 44px 24px 23px;
+    border-radius: 20px;
+    background: #f4f4f4;
+
+}
+
+label {
+    color: #777777;
+    font-size: 14px;
+    font-size: 14px;
+}
+
+select,
+input {
+    width: 100%;
+    height: 48px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    outline: none;
+    padding-left: 18px;
+    font-size: 18px;
+    color: #555555;
+    appearance: none;
+}
+
+button {
+    margin-top: 24px;
+    background-color: #4c80e7;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 100%;
+    top: 44px;
+    left: 24px;
+    border: none;
+    padding: 15px;
+    color: #ffffff;
+    font-weight: 600;
+    height: 48px;
+    box-shadow: 0px 4px 8px rgba(20, 20, 20, 0.5);
+
+
+}
+
+button:hover {
+    background-color: #02409c;
+    cursor: pointer;
+  
+
+
+}
+
+section {
+    border: 1px solid #02409c;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: #ffffff;
+    color: #555555;
+
+}
+
+.nome {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom:2px;
+
+}
+
+.currency-value, .currency-value-to-convert {
+    font-size: 20px;
+    font-weight: 700;
+    margin: bottom 5px;
+    color: #555555;
+
+}
+.arrow-img {
+    margin: 15px 0 20px;
+    
+
+}
+.currency-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+.currency-img {
+    width: 50px;
+    height: 50px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}   
+#real {
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
