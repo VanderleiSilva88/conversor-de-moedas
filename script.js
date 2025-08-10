@@ -77,7 +77,7 @@ function changeCurrency() {
 
     if (currencySelect.value == 'dolar') {
         currencyName.innerHTML = 'Dolar Americano'
-        currencyImage.src = './img/dólar.png'
+        currencyImage.src = './img/dolar.png'
 
 
     }
@@ -94,7 +94,7 @@ function changeCurrency() {
 
     if (currencySelect.value == 'gbt') {
         currencyName.innerHTML = 'Libra Esterlina'
-        currencyImage.src = './img/libra.png'
+        currencyImage.src = './img/gbt.png'
     }
 
     convert()
